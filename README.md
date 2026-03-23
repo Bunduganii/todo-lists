@@ -1,16 +1,87 @@
-# React + Vite
+# 📝 To-Do List Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+This is a simple and responsive To-Do List web application built using **React.js**, **CSS**, and **LocalStorage**.
+It allows users to add, delete, and manage their daily tasks easily.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ➕ Add new tasks
+* ❌ Clear all tasks
+* 💾 Save tasks in browser using LocalStorage
+* 🔄 Tasks remain even after page refresh
+* 🎨 Clean and responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React.js
+* CSS
+* JavaScript (ES6)
+* LocalStorage (Browser Storage)
+
+---
+
+## 📂 How It Works
+
+* User types a task and adds it to the list
+* The task is saved in **LocalStorage**
+* When the page reloads, tasks are loaded from storage
+* User can delete tasks anytime
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Bunduganii/todo-lists.git
+```
+
+2. Go to the project folder:
+
+```bash
+cd todo-lists
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the app:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshot
+<img width="959" height="411" alt="image" src="https://github.com/user-attachments/assets/b2cb1fe5-e8f4-464d-bcef-6d59453bcb1a" />
+
+
+
+---
+
+## 📈 Future Improvements
+
+* ✏️ Edit tasks
+* 🌙 Dark mode
+* ✅ Mark tasks as completed
+* 🔍 Search tasks
+
+---
+
+## 👨‍💻 Author
+
+* Hamse Saed abdi
+* Phone: 0633996646
+
+---
